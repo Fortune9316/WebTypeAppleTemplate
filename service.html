@@ -8,21 +8,174 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="serviceStyle.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>XBIT</title>
 </head>
 <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark navStyle">
+                <a class="navbar-brand" href="#">XBIT</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav mx-auto">
+                                <a class="nav-item nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="#">About us</a>
+                                <a class="nav-item nav-link active" href="/service.html">Services</a>
+                                <a class="nav-item nav-link" href="#">Team</a>
+                                <a class="nav-item nav-link" href="#">Clients</a>
+                                <a class="nav-item nav-link" href="#">Contact</a>
+                        </div>
+                </div>
+        </nav>
     <div id="container">
-        <header id="header">
-            Servicio del Pito
-        </header>
-        <section id="section">
-            <div class="box">
-                Seccion del servicio del pito
+        <header style="overflow:hidden;" id="header">
+            <div  style="overflow:hidden;">
+                    <video preload="preload"  id="video" autoplay="autoplay" loop="loop">
+                            <source src="videos/videoplayback.mp4" type="video/mp4"></source>
+                            </video> 
             </div>
+                
+        </header>
+        <section id="serviceSection">
+            <div class="boxECommerce">
+                <p class="serviceTitle">E-Commerce</p>
+                <div class="row serviceContent">
+                    <div class="col-md-6 serviceTxt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis sit amet ipsum vitae malesuada. Integer sagittis nibh erat, quis vehicula mi bibendum et. Sed augue leo, dictum hendrerit magna quis, elementum dignissim quam. Aliquam congue vestibulum placerat. Curabitur non libero odio. Fusce nec pulvinar metus. Donec iaculis porttitor mauris, eget lacinia libero suscipit eget. Proin iaculis eros non sapien pellentesque, sed ornare diam tincidunt. Aliquam ac est efficitur, viverra dolor ut, ultricies magna.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img style="width:60%;" src="images/ecommerce.png">
+                    </div>
+                    <div class="col-md-12 serviceSubTxt">
+                        <p>Phasellus orci lectus, tincidunt nec interdum aliquam, efficitur a diam. Fusce quis volutpat tellus. Mauris ac elit posuere, pellentesque eros et, ornare orci. Sed a dui mauris. Etiam odio ex, tincidunt ac efficitur sit amet, fermentum ullamcorper mauris. Ut a orci at est fringilla volutpat non quis turpis. Pellentesque in fermentum purus.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/productPlaceHolder.png">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/productPlaceHolder.png">
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="margin-top:30px; padding-bottom: 30px;" class="boxECommerce blackBox">
+                <p class="serviceTitle">Chat-Bot</p>
+                <div class="row serviceContent">
+                        <div class="col-md-6">
+                                <img style="width:40%;" src="images/chatBot.png">
+                            </div>
+                    <div class="col-md-6 serviceTxt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis sit amet ipsum vitae malesuada. Integer sagittis nibh erat, quis vehicula mi bibendum et. Sed augue leo, dictum hendrerit magna quis, elementum dignissim quam. Aliquam congue vestibulum placerat. Curabitur non libero odio. Fusce nec pulvinar metus. Donec iaculis porttitor mauris, eget lacinia libero suscipit eget. Proin iaculis eros non sapien pellentesque, sed ornare diam tincidunt. Aliquam ac est efficitur, viverra dolor ut, ultricies magna.</p>
+                    </div>
+                    
+                    <div class="col-md-12 serviceSubTxt">
+                        <p>Phasellus orci lectus, tincidunt nec interdum aliquam, efficitur a diam. Fusce quis volutpat tellus. Mauris ac elit posuere, pellentesque eros et, ornare orci. Sed a dui mauris. Etiam odio ex, tincidunt ac efficitur sit amet, fermentum ullamcorper mauris. Ut a orci at est fringilla volutpat non quis turpis. Pellentesque in fermentum purus.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/productPlaceHolder.png">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/productPlaceHolder.png">
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="margin-top:30px;" class="boxECommerce">
+                <p class="serviceTitle">Digital signage</p>
+                <div class="row serviceContent">
+                        
+                    <div class="col-md-6 serviceTxt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis sit amet ipsum vitae malesuada. Integer sagittis nibh erat, quis vehicula mi bibendum et. Sed augue leo, dictum hendrerit magna quis, elementum dignissim quam. Aliquam congue vestibulum placerat. Curabitur non libero odio. Fusce nec pulvinar metus. Donec iaculis porttitor mauris, eget lacinia libero suscipit eget. Proin iaculis eros non sapien pellentesque, sed ornare diam tincidunt. Aliquam ac est efficitur, viverra dolor ut, ultricies magna.</p>
+                    </div>
+                    <div class="col-md-6">
+                            <img style="width:40%;" src="images/digitalS.png">
+                        </div>
+                    <div class="col-md-12 serviceSubTxt">
+                        <p>Phasellus orci lectus, tincidunt nec interdum aliquam, efficitur a diam. Fusce quis volutpat tellus. Mauris ac elit posuere, pellentesque eros et, ornare orci. Sed a dui mauris. Etiam odio ex, tincidunt ac efficitur sit amet, fermentum ullamcorper mauris. Ut a orci at est fringilla volutpat non quis turpis. Pellentesque in fermentum purus.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/productPlaceHolder.png">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/productPlaceHolder.png">
+                    </div>
+                </div>
+            </div>
+
+            
+            <div style="margin-top:30px; padding-bottom: 30px;" class="boxECommerce blackBox">
+                <p class="serviceTitle">VR</p>
+                <div class="row serviceContent">
+                        <div class="col-md-6">
+                                <img style="width:70%;" src="images/vr.png">
+                            </div>
+                    <div class="col-md-6 serviceTxt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis sit amet ipsum vitae malesuada. Integer sagittis nibh erat, quis vehicula mi bibendum et. Sed augue leo, dictum hendrerit magna quis, elementum dignissim quam. Aliquam congue vestibulum placerat. Curabitur non libero odio. Fusce nec pulvinar metus. Donec iaculis porttitor mauris, eget lacinia libero suscipit eget. Proin iaculis eros non sapien pellentesque, sed ornare diam tincidunt. Aliquam ac est efficitur, viverra dolor ut, ultricies magna.</p>
+                    </div>
+                    
+                    <div class="col-md-12 serviceSubTxt">
+                        <p>Phasellus orci lectus, tincidunt nec interdum aliquam, efficitur a diam. Fusce quis volutpat tellus. Mauris ac elit posuere, pellentesque eros et, ornare orci. Sed a dui mauris. Etiam odio ex, tincidunt ac efficitur sit amet, fermentum ullamcorper mauris. Ut a orci at est fringilla volutpat non quis turpis. Pellentesque in fermentum purus.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/productPlaceHolder.png">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/productPlaceHolder.png">
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="margin-top:30px;" class="boxECommerce">
+                <p class="serviceTitle">AR</p>
+                <div class="row serviceContent">
+                        
+                    <div class="col-md-6 serviceTxt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis sit amet ipsum vitae malesuada. Integer sagittis nibh erat, quis vehicula mi bibendum et. Sed augue leo, dictum hendrerit magna quis, elementum dignissim quam. Aliquam congue vestibulum placerat. Curabitur non libero odio. Fusce nec pulvinar metus. Donec iaculis porttitor mauris, eget lacinia libero suscipit eget. Proin iaculis eros non sapien pellentesque, sed ornare diam tincidunt. Aliquam ac est efficitur, viverra dolor ut, ultricies magna.</p>
+                    </div>
+                    <div class="col-md-6">
+                            <img style="width:60%;" src="images/ar.png">
+                        </div>
+                    <div class="col-md-12 serviceSubTxt">
+                        <p>Phasellus orci lectus, tincidunt nec interdum aliquam, efficitur a diam. Fusce quis volutpat tellus. Mauris ac elit posuere, pellentesque eros et, ornare orci. Sed a dui mauris. Etiam odio ex, tincidunt ac efficitur sit amet, fermentum ullamcorper mauris. Ut a orci at est fringilla volutpat non quis turpis. Pellentesque in fermentum purus.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/productPlaceHolder.png">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/productPlaceHolder.png">
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top:30px; padding-bottom: 30px;" class="boxECommerce blackBox">
+                    <p class="serviceTitle">Software/Hardware Development</p>
+                    <div class="row serviceContent">
+                            <div class="col-md-6">
+                                    <img style="width:80%;" src="images/swDev.png">
+                                </div>
+                        <div class="col-md-6 serviceTxt">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lobortis sit amet ipsum vitae malesuada. Integer sagittis nibh erat, quis vehicula mi bibendum et. Sed augue leo, dictum hendrerit magna quis, elementum dignissim quam. Aliquam congue vestibulum placerat. Curabitur non libero odio. Fusce nec pulvinar metus. Donec iaculis porttitor mauris, eget lacinia libero suscipit eget. Proin iaculis eros non sapien pellentesque, sed ornare diam tincidunt. Aliquam ac est efficitur, viverra dolor ut, ultricies magna.</p>
+                        </div>
+                        
+                        <div class="col-md-12 serviceSubTxt">
+                            <p>Phasellus orci lectus, tincidunt nec interdum aliquam, efficitur a diam. Fusce quis volutpat tellus. Mauris ac elit posuere, pellentesque eros et, ornare orci. Sed a dui mauris. Etiam odio ex, tincidunt ac efficitur sit amet, fermentum ullamcorper mauris. Ut a orci at est fringilla volutpat non quis turpis. Pellentesque in fermentum purus.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/productPlaceHolder.png">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/productPlaceHolder.png">
+                        </div>
+                    </div>
+                </div>
+
         </section>
-        <footer id="footer">
-            Pie del servicio del pito
+        <footer class="blackBox" id="footer">
+            
         </footer>
 
     </div>
